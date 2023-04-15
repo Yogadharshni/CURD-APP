@@ -4,7 +4,7 @@ export function Home() {
 
   return (
     // <h1>Welcome to Home Page⭐</h1>
-    <img id='img-div' src="https://static.vecteezy.com/system/resources/thumbnails/000/371/208/small/1465.jpg" alt="Welcome" />
+    <img id='img-div'  src="https://t4.ftcdn.net/jpg/05/31/67/91/360_F_531679184_3VykZEvx3OvHKnLpl3TdaDYWT1hYjvc9.jpg" alt="Welcome" />
 
   );
 }
