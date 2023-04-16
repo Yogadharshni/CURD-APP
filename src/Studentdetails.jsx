@@ -31,7 +31,7 @@ export function Studentdetails({stdData ,setData}) {
     <div className='card-container'>
       {stdData.map((val,id)=>(
        <Card sx={{ maxWidth: 345 }} key={val.id} className='card'>
-      <CardContent>
+      <CardContent className='each-card'>
         <Typography gutterBottom variant="h5" component="div">
          {val.name}
         </Typography>
@@ -45,7 +45,7 @@ export function Studentdetails({stdData ,setData}) {
           Year of Experience:{val.YearsOfExperience} Years
         </Typography>
       </CardContent>
-      <CardActions>
+      <CardActions className='btns'>
         <Button  color='secondary' size="small"
         onClick={()=>navigate(`/edit/${id}`)}>
           Edit</Button>
@@ -54,7 +54,7 @@ export function Studentdetails({stdData ,setData}) {
         onClick={()=>deleteData(val.id)}>
           Delete</Button>
  
-       <Button  size="small"
+       <Button  sx={{marginLeft:'auto'}} size="small" 
        onClick={()=>navigate(`/details/${id}`)}>
         View Details</Button>
 

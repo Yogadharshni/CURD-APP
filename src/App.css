@@ -25,10 +25,14 @@
   display: grid;
   gap: 1rem;
   grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+  /* background-color: rgb(7, 1, 26); */
+  
 }
 
 .card{
   margin: 15px;
+  
+  
  
 }
 .inp-field{
@@ -58,4 +62,28 @@
 
   width: 100%;
   height: 100%;
+}
+
+.each-card{
+  background-color: rgb(50, 82, 131);
+  /* background-color: rgb(112, 102, 158); */
+  /* color: white; */
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.each-card p{
+ 
+  /* color: white; */
+  color: white;
+ 
+}
+
+.btns{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(197, 197, 216) ;
 }
